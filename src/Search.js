@@ -25,6 +25,15 @@ function Search() {
         <DateRangePicker ranges={
             [selectionRange]} onChange=
             {handleSelect} />
+            <h2>
+                Number of guest
+            </h2>
+            <input min={0}
+            defaultValue={2} 
+            type="number"/>
+
+            <button>Search Airbnb</button>
+
     </div>
   )
 }

@@ -8,14 +8,15 @@
 }
 
 .banner__info {
-    background-color: black;
+    background-color: transparent;
     color: white;
-    padding-top: 25vh;
+    padding-top: 1vh;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 40px;
-    width: 300px;
+    width: 500px;
 }
+
 
 .banner__searchButton {
     background-color: white;
@@ -25,7 +26,6 @@
     height: 40px;
     
 }
-
 .banner__search {
     display: flex;
     flex-direction: column;
@@ -41,6 +41,11 @@
     border: none;
     height: 30px;
     width: 170px;
+}
+
+.banner__info button:hover {
+    background-color: transparent;
+    border: 2px solid lightblue;
 }
 
 .banner__info > h5 {
